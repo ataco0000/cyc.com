@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  background-color: #000000;
+  color: #F7E9E5;
+  font-style: normal;
+}
+
+.text-orange {
+  color: #EC6437;
+}
+
+.btn-orange {
+  color: #fff;
+  background-color: #EC6437;
+  border-color: #EC6437;
+}
+
+.btn-orange:hover {
+  background-color: #7e280c;
+  border-color: #7e280c;
+}
+
+body {
+  background-color: #EB6F50;
+  color: black;
+}
+
+h1, .write {
+  font-family: "Lobster", cursive;
+  text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.hoverImage {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.hoverImage:hover {
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+}
+
+.line {
+  background: url("../img/index/line.svg") repeat-y top/15% auto;
+  height: 100%;
+  width: 100%;
+}
+
+/*---pic drop---*/
+/*
+  $img_w: 40%; // 圖片寬 用來計算平均排序用
+  $img_c: 3; // 圖片元件數量，下面有 for 迴圈
+
+.picBox{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    .img{
+        position: absolute;
+       
+        border-radius: 5em;
+        animation: mbt 5s 0s linear infinite both;
+        width: $img_w;
+        &:nth-child(1){
+          right: 0px;
+            animation-delay:-2s;
+        }
+        &:nth-child(2){
+            left:100px;
+           
+        }
+        &:nth-child(3){
+            top:0;
+            animation-delay:2s;
+        }
+        
+        h4{
+          text-align: center;
+        }
+        &:hover{
+            animation-play-state: paused; // 讓動畫暫停的關鍵
+            z-index: 1; // 讓他跳第一個
+            img {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .25);
+            }
+        }
+       
+    }
+
+    @keyframes mbt {
+        0%  { transform: translateY(-600px); }
+        100%{ transform: translateY(100vh);  }
+    }
+
+
+}
+
+
+*/
+/*modal*/
+.bg2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(95%, transparent), color-stop(5%, rgba(0, 0, 0, 0.2)));
+  background-image: linear-gradient(transparent 95%, rgba(0, 0, 0, 0.2) 5%);
+  background-size: 20px 20px;
+  background-repeat: repeat;
+}
+
+.bg-a {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px solid;
+}
+
+.photo {
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg);
+  margin-left: -15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.bg-2color-1 {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #6EA9B1), color-stop(50%, #77ACB4));
+  background-image: linear-gradient(to right, #6EA9B1 50%, #77ACB4 50%);
+  background-repeat: no-repeat;
+}
+
+.bg-2color-2 {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #588A93), color-stop(50%, #629DA5));
+  background-image: linear-gradient(to right, #588A93 50%, #629DA5 50%);
+  background-repeat: no-repeat;
+}
+
+.shadowL {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) -5px 0px, rgba(0, 0, 0, 0.3) -10px 0px, rgba(0, 0, 0, 0.2) -15px 0px, rgba(0, 0, 0, 0.5) 0px 2px 4px, rgba(0, 0, 0, 0.9) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) -5px 0px, rgba(0, 0, 0, 0.3) -10px 0px, rgba(0, 0, 0, 0.2) -15px 0px, rgba(0, 0, 0, 0.5) 0px 2px 4px, rgba(0, 0, 0, 0.9) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.shadowR {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 5px 0px, rgba(0, 0, 0, 0.3) 10px 0px, rgba(0, 0, 0, 0.2) 15px 0px, rgba(0, 0, 0, 0.5) 0px 2px 4px, rgba(0, 0, 0, 0.9) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 5px 0px, rgba(0, 0, 0, 0.3) 10px 0px, rgba(0, 0, 0, 0.2) 15px 0px, rgba(0, 0, 0, 0.5) 0px 2px 4px, rgba(0, 0, 0, 0.9) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.btnCopy {
+  color: white;
+  border: 1px solid white;
+  background-color: #588A93;
+}
+
+.btnCopy:hover {
+  background-color: #456c73;
+  border-color: #e6e6e6;
+  color: #e6e6e6;
+}
+
+.btn-resume {
+  background-color: #EB6F50;
+  color: white;
+  border: 2px solid white;
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.btn-resume:hover {
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
+}
+
+.cathandL {
+  margin-bottom: -100px;
+  margin-left: -68px;
+}
+
+.cathandR {
+  margin-bottom: -100px;
+  margin-right: -65px;
+}
+/*# sourceMappingURL=style.css.map */
