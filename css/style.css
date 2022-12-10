@@ -24,11 +24,12 @@ body {
 }
 
 body {
-  background-color: #EB6F50;
-  color: black;
+  color: white;
+  background-image: url(../img/index/bg.png);
+  background-repeat: repeat;
 }
 
-h1, .write {
+h1 {
   font-family: "Lobster", cursive;
   text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -43,10 +44,54 @@ h1, .write {
           box-shadow: #26394d 0px 20px 30px -10px;
 }
 
-.line {
-  background: url("../img/index/line.svg") repeat-y top/15% auto;
-  height: 100%;
-  width: 100%;
+.sticker {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(255, 255, 205, 0.3);
+}
+
+.topLeft {
+  position: absolute;
+  top: 0;
+  left: -40px;
+}
+
+.topRight {
+  position: absolute;
+  top: 0;
+  right: -40px;
+}
+
+.bottomRight {
+  position: absolute;
+  bottom: 0;
+  right: -40px;
+}
+
+.bottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+}
+
+.rotate40 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.rotate-40 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.rotate5 {
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+.rotate-5 {
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 
 /*---pic drop---*/
