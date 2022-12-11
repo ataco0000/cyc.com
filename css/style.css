@@ -34,7 +34,7 @@ h1 {
 }
 
 .txtShadow {
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.2em;
 }
 
 .maxW {
