@@ -55,13 +55,29 @@ h1 {
   }
 }
 
+.fs-btn {
+  font-size: calc(1.75em + .6vw);
+}
+
+@media (max-width: 1600px) {
+  .fs-btn {
+    font-size: 1.75em;
+  }
+}
+
+@media (max-width: 768px) {
+  .fs-btn {
+    font-size: calc(1.3rem + .6vw);
+  }
+}
+
 .fs-txt {
-  font-size: calc(2em + .6vw);
+  font-size: calc(1.5em + .6vw);
 }
 
 @media (max-width: 1600px) {
   .fs-txt {
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
 }
 
@@ -83,7 +99,7 @@ h1 {
 
 .site-center {
   position: absolute;
-  top: 35%;
+  top: 25%;
 }
 
 @media (max-width: 1600px) {
