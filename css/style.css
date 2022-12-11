@@ -111,7 +111,6 @@ h1 {
   left: -40px;
 }
 
-．
 .rotate40 {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -123,8 +122,8 @@ h1 {
 }
 
 .rotate5 {
-  -webkit-transform: rotate(2.5deg);
-          transform: rotate(2.5deg);
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
 }
 
 .rotate-5 {
