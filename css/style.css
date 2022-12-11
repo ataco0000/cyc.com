@@ -81,6 +81,17 @@ h1 {
           box-shadow: #26394d 0px 20px 30px -10px;
 }
 
+.site-center {
+  position: absolute;
+  top: 50%;
+}
+
+@media (max-width: 1600px) {
+  .site-center {
+    top: 0;
+  }
+}
+
 .sticker {
   width: 100px;
   height: 30px;
