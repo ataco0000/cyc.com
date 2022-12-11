@@ -83,10 +83,16 @@ h1 {
 
 .site-center {
   position: absolute;
-  top: 50%;
+  top: 35%;
 }
 
 @media (max-width: 1600px) {
+  .site-center {
+    top: -50px;
+  }
+}
+
+@media (max-width: 768px) {
   .site-center {
     top: 0;
   }
