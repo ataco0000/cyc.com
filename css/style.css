@@ -55,22 +55,6 @@ h1 {
   }
 }
 
-.fs-btn {
-  font-size: calc(1.75em + .6vw);
-}
-
-@media (max-width: 1600px) {
-  .fs-btn {
-    font-size: 1.75em;
-  }
-}
-
-@media (max-width: 768px) {
-  .fs-btn {
-    font-size: calc(1.3rem + .6vw);
-  }
-}
-
 .fs-txt {
   font-size: calc(1.5em + .6vw);
 }
